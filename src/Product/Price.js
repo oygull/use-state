@@ -22,8 +22,8 @@ class Price extends Component{
         <button className="minus" onClick={() => this.setState({ count: this.state.count - 1 , price: this.state.price-32})}>-</button>
           <p className="count-input" >{this.state.count} </p>
           <button className="plus" onClick={() => this.setState({ count: this.state.count + 1 , price: this.state.price+32})}>+</button>
-          <button  className="add-btn"><i class='bx bx-basket'></i> Add to Cart</button>
-          <button className="custom-btn"><i class='bx bx-cog' ></i> Custom Pallet</button>
+          <button  className="add-btn"><i className='bx bx-basket'></i> Add to Cart</button>
+          <button className="custom-btn"><i className='bx bx-cog' ></i> Custom Pallet</button>
         </div>
       </div>
     )
